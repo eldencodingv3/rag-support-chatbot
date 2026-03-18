@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "How do I create a CloudSync Pro account?",
+    "answer": "To create a CloudSync Pro account, visit our website at cloudsyncpro.com and click 'Sign Up'. Enter your email address, choose a password, and select your plan. You'll receive a verification email — click the link to activate your account. You can also sign up using Google or Microsoft SSO for faster onboarding."
+  },
+  {
+    "id": 2,
+    "question": "What are the pricing plans for CloudSync Pro?",
+    "answer": "CloudSync Pro offers three plans: Free (5 GB storage, 1 user), Pro ($12/month per user, 100 GB storage, priority support), and Enterprise ($29/month per user, unlimited storage, SSO, dedicated account manager, SLA guarantees). All paid plans include a 14-day free trial. Annual billing saves you 20%."
+  },
+  {
+    "id": 3,
+    "question": "How do I reset my password?",
+    "answer": "To reset your password, go to the login page and click 'Forgot Password'. Enter the email address associated with your account and we'll send you a password reset link. The link expires in 1 hour. If you don't receive the email, check your spam folder or contact support at support@cloudsyncpro.com."
+  },
+  {
+    "id": 4,
+    "question": "My files are not syncing. What should I do?",
+    "answer": "If your files are not syncing, try these steps: 1) Check your internet connection. 2) Make sure you're signed in to the CloudSync Pro app. 3) Verify you haven't exceeded your storage limit. 4) Restart the CloudSync Pro desktop or mobile app. 5) Check the sync status icon in the system tray for error messages. If the issue persists, contact support with your sync log file (Settings > Support > Export Logs)."
+  },
+  {
+    "id": 5,
+    "question": "How do I share files with others?",
+    "answer": "To share files, right-click on any file or folder in CloudSync Pro and select 'Share'. You can share via email invitation, generate a shareable link, or add collaborators directly. You can set permissions to View Only, Comment, or Edit. Shared links can be password-protected and set to expire after a specified date."
+  },
+  {
+    "id": 6,
+    "question": "What is my storage limit?",
+    "answer": "Your storage limit depends on your plan: Free plan includes 5 GB, Pro plan includes 100 GB per user, and Enterprise plan offers unlimited storage. You can check your current usage in Settings > Storage. If you need more storage on the Pro plan, you can purchase additional storage packs of 50 GB for $5/month each."
+  },
+  {
+    "id": 7,
+    "question": "Is there a mobile app for CloudSync Pro?",
+    "answer": "Yes! CloudSync Pro has mobile apps for both iOS (iPhone and iPad) and Android. Download them from the Apple App Store or Google Play Store. The mobile app supports file browsing, uploading photos and documents, offline access to favorited files, and push notifications for shared file activity."
+  },
+  {
+    "id": 8,
+    "question": "Does CloudSync Pro offer an API?",
+    "answer": "Yes, CloudSync Pro provides a RESTful API for developers. API access is available on Pro and Enterprise plans. You can generate API keys in Settings > Developer > API Keys. Our API supports file operations (upload, download, delete, move), user management, and webhook integrations. Full API documentation is available at docs.cloudsyncpro.com/api."
+  },
+  {
+    "id": 9,
+    "question": "How do I collaborate with my team?",
+    "answer": "CloudSync Pro offers several collaboration features: shared folders where team members can access and edit files, real-time co-editing for documents, commenting on any file, @mention notifications, version history with the ability to restore previous versions, and activity feeds to track changes. Team admins can manage members and permissions from the Admin Console."
+  },
+  {
+    "id": 10,
+    "question": "What security features does CloudSync Pro have?",
+    "answer": "CloudSync Pro uses enterprise-grade security: AES-256 encryption for files at rest, TLS 1.3 for data in transit, two-factor authentication (2FA), SSO integration with SAML 2.0 and OAuth, role-based access controls, audit logging, remote device wipe capability, and SOC 2 Type II compliance. Enterprise plans also include data loss prevention (DLP) policies and custom retention rules."
+  },
+  {
+    "id": 11,
+    "question": "How do I cancel my subscription?",
+    "answer": "To cancel your subscription, go to Settings > Billing > Manage Subscription and click 'Cancel Plan'. Your account will remain active until the end of your current billing period. After cancellation, your account reverts to the Free plan (5 GB). You can download your data at any time. We offer a 30-day money-back guarantee for new subscriptions. To reactivate, simply choose a new plan from the Billing page."
+  },
+  {
+    "id": 12,
+    "question": "What are the technical requirements for CloudSync Pro?",
+    "answer": "CloudSync Pro desktop app requires: Windows 10 or later, macOS 11 (Big Sur) or later, or Ubuntu 20.04+. You need at least 200 MB of free disk space for the app and a stable internet connection. The web app works in Chrome, Firefox, Safari, and Edge (latest 2 versions). Mobile apps require iOS 15+ or Android 10+. For API integrations, we support REST over HTTPS with JSON payloads."
+  },
+  {
+    "id": 13,
+    "question": "How does version history work?",
+    "answer": "CloudSync Pro automatically saves versions of your files each time they are modified. Free plan users can access versions from the last 30 days, Pro users get 180 days, and Enterprise users get unlimited version history. To restore a previous version, right-click the file, select 'Version History', preview any version, and click 'Restore'. Restored versions are saved as new versions without overwriting the current file."
+  },
+  {
+    "id": 14,
+    "question": "Can I use CloudSync Pro offline?",
+    "answer": "Yes, CloudSync Pro supports offline access. On desktop, any files in your sync folder are available offline automatically. On mobile, you can mark specific files or folders as 'Available Offline' and they will be downloaded to your device. Changes made offline are automatically synced when you reconnect to the internet. Conflict resolution handles cases where the same file was edited by multiple users while offline."
+  }
+]
